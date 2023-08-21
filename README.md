@@ -27,11 +27,6 @@ Generative Tales utilizes the OpenAI API to power the generative illustrations. 
 Remember to keep your API key secure and never share it publicly. The .env file is a good place to store sensitive information like API keys.
 Create a .env file in the project root and add your [OpenAI API key](https://platform.openai.com/docs/api-reference/authentication):
 
-<pre>
-
-REACT_APP_OPENAI_API_KEY=your_openai_api_key_here
-
-</pre>
 
 Start the development server:
 
@@ -42,7 +37,7 @@ npm start
 </pre>
 
 
-Every time you want to work on your application, you'll need to ensure that the API is running. Open a new terminal and start it.
+Every time you want to work on your application, you'll need to ensure that the API is running. Open a new terminal, in imaginarium-api directory start with:
 <pre>
 
 json-server -p 8088 database.json
