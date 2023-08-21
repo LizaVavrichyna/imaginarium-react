@@ -15,7 +15,7 @@ Convenient Navigation: Logged-in users can easily create new posts, edit posts, 
 ## Installation
 After cloning the project, install [React](https://www.freecodecamp.org/news/install-react-with-create-react-app/).
 
-To run the project:
+Start the development server:
 
 <pre>
 npm start
@@ -28,18 +28,10 @@ Remember to keep your API key secure and never share it publicly. The .env file 
 Create a .env file in the project root and add your [OpenAI API key](https://platform.openai.com/docs/api-reference/authentication):
 
 
-Start the development server:
-
-<pre>
-
-npm start
-
-</pre>
-
-
 Every time you want to work on your application, you'll need to ensure that the API is running. Open a new terminal, in imaginarium-api directory start with:
 <pre>
 
 json-server -p 8088 database.json
 
 </pre>
+
