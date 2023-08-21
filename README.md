@@ -16,9 +16,7 @@ Convenient Navigation: Logged-in users can easily create new posts, edit posts, 
 Install the project dependencies:
 
 <pre>
-```javascript
 npm install
-```
 </pre>
 
 OpenAI API Integration
@@ -27,22 +25,22 @@ Remember to keep your API key secure and never share it publicly. The .env file 
 Create a .env file in the project root and add your [OpenAI API key](https://platform.openai.com/docs/api-reference/authentication):
 
 <pre>
-```javascript
+
 REACT_APP_OPENAI_API_KEY=your_openai_api_key_here
-```
+
 </pre>
 
 Start the development server:
 
 <pre>
-```javascript
+
 npm start
-  ```
+
 </pre>
 The app should now be running locally at http://localhost:3000.
 Every time you want to work on your application, you'll need to ensure that the API is running. Open a new terminal and start it.
 <pre>
-```javascript
+
 json-server -p 8088 database.json
-  ```
+
 </pre>
