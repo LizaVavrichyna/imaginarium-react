@@ -13,11 +13,14 @@ User Profiles: Customize your profile photo and name and showcase your portfolio
 Convenient Navigation: Logged-in users can easily create new posts, edit posts, access their profile, like and comment on post from other users and log out through the navigation bar.
 
 ## Installation
-Install the project dependencies:
+After cloning the project, install [React](https://www.freecodecamp.org/news/install-react-with-create-react-app/).
+
+To run the project:
 
 <pre>
-npm install
+npm start
 </pre>
+The app should now be running locally at http://localhost:3000.
 
 OpenAI API Integration
 Generative Tales utilizes the OpenAI API to power the generative illustrations. To use the OpenAI API, you'll need an API key. If you don't have one, sign up for an account at openai.com and obtain your API key.
@@ -37,7 +40,7 @@ Start the development server:
 npm start
 
 </pre>
-The app should now be running locally at http://localhost:3000.
+
 
 Every time you want to work on your application, you'll need to ensure that the API is running. Open a new terminal and start it.
 <pre>
