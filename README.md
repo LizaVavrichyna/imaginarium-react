@@ -5,12 +5,17 @@ IMAGINARIUM is all about merging the power of storytelling with the magic of gen
 
 ## Key Features
 Generative Illustrations: Leverage the power of DALL-E to create unique and imaginative visuals that enhance your stories.
+<img width="1792" alt="Screen Shot 2023-08-21 at 4 41 02 PM" src="https://github.com/LizaVavrichyna/imaginarium-react/assets/111198955/9b0dfd34-2dd9-4a13-ac87-bd923f740378">
 
 Engaging Feed: Explore a dynamic feed where stories come to life through stunning visuals.
+<img width="1146" alt="Screen Shot 2023-08-21 at 4 45 23 PM" src="https://github.com/LizaVavrichyna/imaginarium-react/assets/111198955/6b55efa5-dfba-4e54-8d46-54d0eb4c325f">
+
 
 User Profiles: Customize your profile photo and name and showcase your portfolio of generative tales.
+<img width="1792" alt="Screen Shot 2023-08-21 at 4 41 36 PM" src="https://github.com/LizaVavrichyna/imaginarium-react/assets/111198955/ecde007e-5217-4bab-b427-3b4253efde0b">
 
 Convenient Navigation: Logged-in users can easily create new posts, edit posts, access their profile, like and comment on post from other users and log out through the navigation bar.
+<img width="1792" alt="Screen Shot 2023-08-21 at 4 42 22 PM" src="https://github.com/LizaVavrichyna/imaginarium-react/assets/111198955/d831b065-cfc1-4d97-9502-45609c78ab91">
 
 ## Installation
 After cloning the project, install [React](https://www.freecodecamp.org/news/install-react-with-create-react-app/).
