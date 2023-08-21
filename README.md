@@ -38,6 +38,7 @@ npm start
 
 </pre>
 The app should now be running locally at http://localhost:3000.
+
 Every time you want to work on your application, you'll need to ensure that the API is running. Open a new terminal and start it.
 <pre>
 
