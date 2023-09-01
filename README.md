@@ -14,7 +14,7 @@ Engaging Feed: Explore a dynamic feed where stories come to life through stunnin
 User Profiles: Customize your profile photo and name and showcase your portfolio of generative tales.
 <img width="1792" alt="Screen Shot 2023-08-21 at 4 41 36 PM" src="https://github.com/LizaVavrichyna/imaginarium-react/assets/111198955/ecde007e-5217-4bab-b427-3b4253efde0b">
 
-Convenient Navigation: Logged-in users can easily create new posts, edit posts, access their profile, like and comment on post from other users and log out through the navigation bar.
+Convenient Navigation: Logged-in users can easily like and comment on post from other users, create new posts, edit posts, access their profile, and log out through the navigation bar.
 <img width="1792" alt="Screen Shot 2023-08-21 at 4 42 22 PM" src="https://github.com/LizaVavrichyna/imaginarium-react/assets/111198955/d831b065-cfc1-4d97-9502-45609c78ab91">
 
 ## Installation
@@ -27,16 +27,19 @@ npm start
 </pre>
 The app should now be running locally at http://localhost:3000.
 
+Install [JSON server](https://github.com/typicode/json-server).
+Every time you want to run the application, you'll need to ensure that the API is running. Open a new terminal, in imaginarium-api directory start with:
+<pre>
+
+json-server -p 8088 database.json
+
+</pre>
+
 OpenAI API Integration
 Generative Tales utilizes the OpenAI API to power the generative illustrations. To use the OpenAI API, you'll need an API key. If you don't have one, sign up for an account at openai.com and obtain your API key.
 Remember to keep your API key secure and never share it publicly. The .env file is a good place to store sensitive information like API keys.
 Create a .env file in the project root and add your [OpenAI API key](https://platform.openai.com/docs/api-reference/authentication):
 
 
-Every time you want to work on your application, you'll need to ensure that the API is running. Open a new terminal, in imaginarium-api directory start with:
-<pre>
 
-json-server -p 8088 database.json
-
-</pre>
 
