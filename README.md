@@ -38,7 +38,7 @@ json-server -p 8088 database.json
 OpenAI API Integration
 Generative Tales utilizes the OpenAI API to power the generative illustrations. To use the OpenAI API, you'll need an API key. If you don't have one, sign up for an account at openai.com and obtain your API key.
 Remember to keep your API key secure and never share it publicly. The .env file is a good place to store sensitive information like API keys.
-Create a .env file in the project root and add your [OpenAI API key](https://platform.openai.com/docs/api-reference/authentication):
+Create a .env file in the project root and add your [OpenAI API key](https://platform.openai.com/docs/api-reference/authentication)
 
 
 
